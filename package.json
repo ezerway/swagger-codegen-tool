@@ -1,0 +1,38 @@
+{
+  "name": "swagger-codegen-tool",
+  "version": "1.0.0",
+  "description": "Swagger Codegen Tool",
+  "main": "output/index.js",
+  "types": "output/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "tsc && start-storybook -p 6006",
+    "build-storybook": "tsc && build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezerway/swagger-codegen-tool.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-transform-runtime": "^7.4.4",
+    "@storybook/html": "^5.0.11",
+    "babel-loader": "^8.0.6",
+    "typescript": "^3.4.5"
+  },
+  "keywords": [
+    "magento"
+  ],
+  "author": "ezerway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ezerway/swagger-codegen-tool/issues"
+  },
+  "homepage": "https://github.com/ezerway/swagger-codegen-tool#readme",
+  "dependencies": {
+    "@babel/runtime": "^7.4.4",
+    "portable-fetch": "^3.0.0",
+    "url": "^0.11.0"
+  }
+}
